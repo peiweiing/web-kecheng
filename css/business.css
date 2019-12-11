@@ -1,0 +1,63 @@
+
+.bodycs{
+    font-size: 0.1rem;
+}
+.ding{padding: 10px 20px;font-size: 16px;background-color: rgba(237,237,237);}
+.ding img{width: 15px;height: 15px;}
+
+.color-b{color: #fff;}
+.color-h{color: rgba(249, 64, 72);}
+.color-hei{color: rgb(119, 118, 118);}
+.color-hui{color: #ccc;}
+.color-102{color: rgba(102, 102, 102);}
+.bgc-h{background-color: rgba(249, 64, 72);}
+.bgc-hui{background-color: rgb(221, 221, 221);}
+.bgc-238{background-color: rgba(238, 238, 238);}
+
+main{margin-bottom: 60px;}
+.one{
+    box-shadow: 0px 0px 10px #ccc;
+    top: -75px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255);
+    margin: 10px;padding: 10px;
+    margin-bottom: -75px;
+}
+.one .top img{
+    width: 60px;border-radius: 50%;margin-bottom: -30px;
+    top: -35px;border: 5px solid rgba(245,245,245);
+}
+.one .top p{font-size: 18px;}
+.one .top span{font-size: 16px;padding: 5px 0 10px 0;}
+.one .end{padding: 10px;}
+.one .end img{width: 30px;height: 30px;}
+.one .end div{font-size: 14px;}
+.one .end .div1 p{font-size: 18px;font-family: "kiti";margin-top: 8px;}
+.one .end p{margin-top: 4px;}
+/* .one .top{padding: 5px 20px 10px 5px;font-size: 14px;} */
+/* .one .top div p{padding: 0 5px 0 10px;} */
+/* .one .top div span{font-size: 22px;} */
+/* .one .end{padding: 10px 0 10px 0;font-size: 16px;} */
+.one button{border: none;border-radius: 4px;margin-left: 8px;font-size: 12px;}
+
+.two{margin-bottom: 40px;}
+.two .top{margin: 10px 20px;font-size: 16px;margin-top: 30px;}
+.two .end{margin: 0px 10px;font-size: 12px;}
+.two .end div{width: 25%;margin: 10px 0;}
+.two .end div img{width: 35px;height: 40px;}
+.two .end div span{margin-top: 6px;}
+
+.two{margin-bottom: 40px;}
+.three .top{margin: 10px 20px;font-size: 16px;margin-top: 30px;}
+.three .end{margin: 0px 10px;font-size: 12px;}
+.three .end div{width: 24%;margin: 10px 0;}
+.three .end div img{width: 40px;height: 35px;}
+.three .end div span{margin-top: 6px;}
+
+footer{bottom: -1px;width: 100%;z-index: 999;}
+.footer{
+    background-color: rgba(244, 244, 244);
+    height: 60px;width: 100%;bottom: -1px;padding: 2px;
+}
+.footer img{width: 24px;height: 24px;}
+.footer span{padding-top: 4px;}

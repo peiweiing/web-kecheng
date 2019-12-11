@@ -1,0 +1,74 @@
+/*
+公共样式
+*/
+html{font-size: 26.67vw;}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+body{font-size:0.1rem;background:#fff;}
+a{color:#172c45;text-decoration:none;}
+a:hover{color:#cd0200;text-decoration:underline;}
+ul,ol,li{list-style:none;}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.height{height:calc(100vh)}.width{width: calc(100vh);}
+
+.float-l{float: left!important;}
+.float-r{float: right!important;}
+
+.pon{position:static!important;}
+.por{position: relative!important;}
+.poa{position: absolute!important;}
+.pof{position: fixed!important;}
+.pos{position: sticky!important;}
+
+.none{display: none;}
+.hidden{visibility: hidden;}
+.opacity{opacity: 0;}
+.overflow{overflow: hidden;}
+.overflow-x{overflow-x: hidden;}
+.overflow-y{overflow-y: hidden;}
+
+/* 字体加粗 */
+.f-bold{font-weight: bold;}
+/* 字体不换行 */
+.f-nowrap{white-space: nowrap;}
+/* 首行缩进 */
+.f-indent{text-indent: 2em;}
+/* 字符间距 */
+.f-spacing{letter-spacing: 1em;}
+
+.t-left{text-align: left;}
+.t-center{text-align: center;}
+.t-right{text-align:right;}
+
+.v-top{vertical-align: top;}
+.v-middle{vertical-align: middle;}
+.v-bottom{vertical-align: bottom;}
+
+.f1{flex: 1;}.f2{flex: 2;}.f3{flex: 3;}.f4{flex: 4;}.f5{flex: 5;}
+
+.o1{order: 1}.o2{order: 2}.o3{order: 3}.o4{order: 4}.o5{order: 5}
+
+.w1{width: 10%;}.w2{width: 20%;}.w3{width: 30%;}.w4{width: 40%;}.w5{width: 50%;}
+.w6{width: 60%;}.w7{width: 70%;}.w8{width: 80%;}.w9{width: 90%;}.w10{width: 100%;} 
+
+.block{display: block!important;}
+.blocks{display: inline-block!important;}
+
+.flex{display:flex!important;}
+.F-xy{display: flex!important;justify-content: center!important;align-items: center!important;}
+
+.F-wrap{display: flex!important;flex-flow: wrap!important;}
+
+.F-column{display: flex!important;flex-flow: column!important;}
+
+.FX-c{display: flex!important;justify-content: center!important;}
+.FX-sb{display: flex!important;justify-content: space-between!important;}
+.FX-sa{display: flex!important;justify-content: space-around!important;}
+.FX-fe{display: flex!important;justify-content: flex-end!important;}
+
+.FY-c{display: flex!important;align-items: center!important;}
+.FY-fe{display: flex!important;align-items: flex-end!important;}
+.FY-fs{display: flex!important;align-items: flex-start!important;}
+
+
+.red{color: red;background-color: red;border: 1px solid red;}
